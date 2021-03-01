@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 1200px;
+    height: 1000px;
+    background-color: rgb(173, 216, 230);
+    margin: auto;
+}
+
+
+/* header */
+
+.title {
+    font-family: 'Nerko One', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+    margin-bottom: 20px;
+}
+
+
+/* /header */
+
+
+/* main */
+
+#box {
+    width: 70%;
+    height: 700px;
+    border: solid 1px black;
+    margin: auto;
+}
+
+.cover {
+    position: relative;
+    width: 180px;
+    height: 210px;
+    margin-bottom: 28px;
+    margin-left: 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px gray;
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    display: inline-block;
+}
+
+.cover:hover .card {
+    display: block;
+}
+
+.card {
+    position: absolute;
+    width: 180px;
+    height: 210px;
+    border-radius: 15px;
+    box-shadow: 2px 2px gray;
+    display: none;
+    background-color: white;
+}
+
+.card img {
+    max-width: 100%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card h3 {
+    font-family: 'Nerko One', cursive;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(230, 121, 25);
+}
+
+
+/* special card */
+
+
+/* /special card */
+
+
+/* footer */
+
+footer h4 {
+    font-family: 'Nerko One', cursive;
+    text-align: center;
+}
+
+
+/* /footer */
+
+
+/* /main */
